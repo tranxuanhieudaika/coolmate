@@ -1,0 +1,75 @@
+.header-container{
+    background-color: #231f20;
+    display: flex;
+    align-items: center;
+    color: azure;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header-container .header-logo{
+    /* width: 70px; */
+    /* flex: thi kh co y nghia voi with; */
+    height: 70px;
+    background-color: #fff;
+    flex: 1;
+    /* background-color: aquamarine; */
+}
+
+.header-container .header-nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex: 6;
+    /* background-color: blueviolet; */
+    height: 100%;
+    /* text-align: center; */
+
+
+}
+
+.header-container .header-nav-links li{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-right: 20px;
+    white-space: nowrap; /* Ngăn chữ xuống hàng */
+}
+
+.header-container .header-actionUser{
+    display: flex;
+    align-items: center;
+    flex: 2;
+    /* background-color: #e8e8e8; */
+}
+
+.header-container .header-actionUser .header-actionUser-icon{
+    background-color: #e8e8e8;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-container .header-actionUser .header-actionUser-icon input{
+    background-color: transparent;
+    border:none ;
+}
+.header-container .header-actionUser .header-actionUser-icon input:focus{
+    outline: transparent;
+    border: none;
+}
+.header-container .header-actionUser .header-actionUser-icon input::placeholder{
+    font-size: 13px;
+}
+
+.header-container .header-actionUser .header-actionUser-icon svg{
+    font-size: 23px;
+    color: #000;
+}
+
+.header-container .header-actionUser svg{
+    font-size: 23px;
+    margin-left: 20px;
+}
