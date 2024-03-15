@@ -58,7 +58,8 @@ function Register() {
         <div class="title-container">
           <h1>XUAN HIEU SHOP</h1>
           <p>
-            hihi
+            Đăng nhập để không bỏ lỡ quyền lợi tích luỹ và hoàn tiền cho bất kỳ
+            đơn hàng nào.
           </p>
           <button>
             <a href="./login.html">Login</a>
